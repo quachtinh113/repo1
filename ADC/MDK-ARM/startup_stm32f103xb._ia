@@ -1,0 +1,5 @@
+--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"
+-I "C:\Users\PC\OneDrive\Máy tính\adc\ADC\MDK-ARM\RTE"
+-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include
+
+--list startup_stm32f103xb.lst --xref -o .\startup_stm32f103xb.o --depend .\startup_stm32f103xb.d "startup_stm32f103xb.s"

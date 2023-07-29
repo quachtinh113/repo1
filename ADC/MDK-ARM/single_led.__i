@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../../../../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../../../../../../Drivers/STM32F1xx_HAL_Driver/Inc -I ../../../../../../Drivers/BSP/STM32F1xx_Nucleo -I ../../../../../../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../../../../../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../../../../../../Middlewares/Third_Party/FreeRTOS/Source/include -I ..\Inc --C99
+-I.\RTE\_WS250
+-IC:\Users\hongky\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+-IC:\Users\hongky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DUSE_STM32F1xx_NUCLEO
+-o .\single_led.o --omf_browse .\single_led.crf --depend .\single_led.d "..\Src\single_led.c"

@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../../../../../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../../../../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../../../../../Drivers/BSP/STM32F1xx_Nucleo -I../../../../../../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I../../../../../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../../../../../../Middlewares/Third_Party/FreeRTOS/Source/include -I..\Inc --C99
+-I "C:\Users\PC\OneDrive\Máy tính\adc\ADC\MDK-ARM\RTE"
+-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include
+-D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB -DUSE_STM32F1xx_NUCLEO
+-o .\system_stm32f1xx.o --omf_browse .\system_stm32f1xx.crf --depend .\system_stm32f1xx.d "../Src/system_stm32f1xx.c"
